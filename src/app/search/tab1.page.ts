@@ -16,9 +16,10 @@ export class Tab1Page {
     private whois: WhoisService
   ) {
     this.loading = false;
+    this.data = '';
   }
 
-  onSearch(domain) {
+  onSearch(domain: string) {
     this.domain = domain;
     this.loading = true;
     this.whois.lookup(domain).subscribe(
@@ -33,7 +34,6 @@ export class Tab1Page {
   }
 
   clearData() {
-
     this.data = '';
   }
 

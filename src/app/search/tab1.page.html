@@ -27,8 +27,8 @@
     </ion-card-header>
 
     <ion-card-content >
-      <p>Esta app usa el protocolo WHOIS para obtener la información del dominio</p>
-      <pre>{{data}}</pre>
+      <p *ngIf="data.length < 1">Esta app usa el protocolo WHOIS para obtener la información del dominio. </p>
+      <pre style="white-space: pre-wrap;">{{data}}</pre>
     </ion-card-content>
 
   </ion-card>
