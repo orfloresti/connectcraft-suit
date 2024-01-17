@@ -1,6 +1,6 @@
 # ConnectCraft Suit
 > [!CAUTION]
-> This project is updated from ionic to flutter.
+> This project is been updating from ionic to flutter.
 
 This application use Ionic framework.
 
